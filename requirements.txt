@@ -85,8 +85,7 @@ pyparsing
 pyproj                      
 pyshp                       
 python-dateutil             
-pytz                        
-pywin32                     
+pytz                                        
 PyYAML                     
 pyzmq                       
 referencing                 
