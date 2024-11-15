@@ -1,5 +1,5 @@
 import streamlit as st 
-from streamlitV1 import load_all_models, predict_demand
+from app import load_all_models, predict_demand
 from datetime import datetime
 import pandas as pd
 import plotly.express as px
