@@ -62,7 +62,7 @@ def run():
     #     st.subheader("Visualizing Actual Demand")
     
     elif selected_product == "Actual Demand":
-        data = pd.read_csv('datasets/cleaned_dataset.csv', usecols=['Actual Pickup Time', 'Actual Dropoff Time', 'Passenger status', "district", "Pickup Latitude", "Pickup Longitude"])
+        data = pd.read_csv('cleaned_dataset.csv', usecols=['Actual Pickup Time', 'Actual Dropoff Time', 'Passenger status', "district", "Pickup Latitude", "Pickup Longitude"])
 
         # Convert date columns to datetime format for easier manipulation
         data['Actual Pickup Time'] = pd.to_datetime(data['Actual Pickup Time'])
