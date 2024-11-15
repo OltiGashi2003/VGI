@@ -131,4 +131,5 @@ watchdog
 wcwidth                     
 Werkzeug                 
 xyzservices               
-zipp                       
+zipp          
+pytz==2024.2
